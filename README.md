@@ -7,7 +7,7 @@ An implementation of a process for generating tilings of "aztec diamonds", as sh
 ### Controls:
  - Space: Single Step Mode
  - P: Pause/Unpause
- - M: Show/Don't Show Fill Step
+ - M: Toggle Show Fill Step
  - Up: Faster
  - Down: Slower
  - R: Reset Speed
