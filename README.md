@@ -13,6 +13,6 @@ An implementation of a process for generating tilings of "aztec diamonds", as sh
  - R: Reset Speed
 
 ### How to build:
-1. Install Cargo
-2. Make sure to be on the nightly release of rust
-3. cargo build --release
+1. Install the rust toolchain via [rustup](https://rustup.rs/)
+2. Make sure that you're on the nightly release of rust
+3. `cargo build --release`
