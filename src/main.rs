@@ -30,7 +30,7 @@ fn main() -> Result<(), pixels::Error> {
         pixels::Pixels::new(WINDOW_SIZE, WINDOW_SIZE, surface_texture)?
     };
 
-    let mut show = grid::ShowGrid::new(WINDOW_SIZE as usize);
+    let mut show = grid::ShowGrid::new(WINDOW_SIZE);
 
     let mut update_interval = Duration::from_millis(300);
     let mut paused = false;
