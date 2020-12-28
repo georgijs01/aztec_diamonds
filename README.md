@@ -4,15 +4,15 @@ An implementation of a process for generating tilings of "aztec diamonds", as sh
 
 ![](diamonds.gif)
 
-Controls:
+### Controls:
  - Space: Single Step Mode
  - P: Pause/Unpause
- - M: Show/Don't Show Fill Step
+ - M: Toggle Show Fill Step
  - Up: Faster
  - Down: Slower
  - R: Reset Speed
 
-How to build:
-1. Install Cargo
-2. Make sure to be on the nightly release of rust
-3. cargo build --release
+### How to build:
+1. Install the rust toolchain via [rustup](https://rustup.rs/)
+2. Make sure that you're on the nightly release of rust
+3. `cargo run --release`
